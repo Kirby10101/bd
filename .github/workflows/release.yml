@@ -45,8 +45,6 @@ jobs:
         uses: crazy-max/ghaction-import-gpg@v6
         with:
          
-      - uses: goreleaser/goreleaser-action@v5
-        with:
           distribution: goreleaser
           version: latest
           args: release --clean
